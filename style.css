@@ -1,0 +1,232 @@
+.head {
+    background-color: #241E20;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top: 15px;
+}
+
+body {
+    background-color: #B6AC8B;
+    text-align: center;
+}
+
+button {
+    background-color: #B6AC8B;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 2px solid #B6AC8B;
+
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #B6AC8B;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    padding: 20px;
+    left: 55%;
+    max-width: 600px;
+    border: 5px solid #241E20;
+}
+
+.home {
+    text-align: center;
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imageAndParagraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.reversedRow {
+    flex-direction: row-reverse;
+}
+
+.images {
+    border-radius: 20px;
+    border: 5px solid #241E20;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+table,th,tr,td {
+    border: solid 5px #241E20;
+}
+
+table {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.paragraphstats {
+    position: absolute;
+    top: 17%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #B6AC8B;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    padding: 20px;
+    max-width: 600px;
+    border: 5px solid #241E20;
+    left: 5%;
+}
+
+.paragraphfineprint {
+    position: absolute;
+    top: 110%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #B6AC8B;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left; 
+    padding: 20px;
+    max-width: 440px;
+    left: 59.8%;
+}
+
+.premierleague {
+    position: absolute;
+    top: 22%;
+    right: 42%;
+    border-radius: 20px;
+    border: solid 2px #241E20;
+}
+
+.title {
+    position: absolute;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.history1 {
+    color: black;
+    background-color: #B6AC8B;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    padding: 20px;
+    max-width: 10000px;
+    border: 5px solid #241E20;
+    top: 130px;
+    position: absolute;
+    right: 0.3%;
+    left: 0.3%;
+}
+
+.title2 {
+    position: absolute;
+    left: 36.5%;
+    top: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.history2 {
+    color: black;
+    background-color: #B6AC8B;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    padding: 20px;
+    max-width: 10000px;
+    border: 5px solid #241E20;
+    top: 630px;
+    position: absolute;
+    right: 0.3%;
+    left: 0.3%;
+}
+
+.ballimage {
+    position: absolute;
+    border-radius: 20px;
+    border: 5px solid #241E20;
+    top: 1200px;
+    right: 82%;
+}
+
+.shoeimage {
+    position: absolute;
+    border-radius: 20px;
+    border: 5px solid #241E20;
+    top: 1200px;
+    right: 38%;
+}
+
+.gameimage {
+    position: absolute;
+    border-radius: 20px;
+    border: 5px solid #241E20;
+    top: 1200px;
+    right: 0.4%;
+}
+
+.paragraphfineprinthistory {
+    position: absolute;
+    top: 1130px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #B6AC8B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left; 
+    left: 70%;
+}
+
+.cleatimage {
+    position: absolute;
+    border-radius: 20px;
+    border: 5px solid #241E20;
+    top: 100px;
+    left: 5%;
+}
